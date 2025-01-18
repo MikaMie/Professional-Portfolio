@@ -14,7 +14,7 @@
 
     <title>Professional Portfolio</title>
   </head>
-  <body class="2xl:max-w-3/4 2xl:mx-auto 2xl:bg-primary">
+  <body class="2xl:max-w-screen-2xl 2xl:mx-auto 2xl:bg-gray-500">
     <header class="p-6 bg-gray-500 text-white md:p-16 flex flex-col gap-y-5 lg:gap-y-20">
       <nav class="p-2 flex justify-between items-center">
         <a class="text-orange-400" href="#">Mika Mielinski</a>
@@ -46,34 +46,35 @@
             <h1 class="text-5xl font-bold lg:text-7xl">John Doe</h1>
           </div>
 
-          <div class="flex flex-col gap-y-5 lg:gap-y-8 xl:pl-16 xl:relative xl:before:h-full xl:before:w-5 xl:before:top-0 xl:before:left-0 before:h-full before:w-2 before:bg-orange-500 before:content-['W'] before:top-1/2">
+          <div class="flex flex-col gap-y-5 lg:gap-y-8 xl:pl-16 xl:relative xl:before:h-full xl:before:w-5 xl:before:top-0 xl:before:left-0 before:h-full before:w-2 before:bg-orange-500 before:content-[''] before:top-1/2 ">
             <ul>
-              <li>
+              <li class="hover:text-orange-400 transition-colors cursor-pointer lg:text-2xl">
                 <i class="fa-brands fa-facebook"></i>
               </li>
-              <li>
+              <li class="hover:text-orange-400 transition-colors cursor-pointer lg:text-2xl">
                 <i class="fa-brands fa-twitter"></i>
               </li>
-              <li>
+              <li class="hover:text-orange-400 transition-colors cursor-pointer lg:text-2xl">
                 <i class="fa-brands fa-dribbble"></i>
               </li>
-              <li>
+              <li class="hover:text-orange-400 transition-colors cursor-pointer lg:text-2xl">
                 <i class="fa-brands fa-youtube"></i>
               </li>
             </ul>
 
-            <p>
+            <p class="lg:text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque sodales at nunc quis semper. Class aptent taciti
               sociosqu ad litora torquent per conubia nostra, per inceptos
               himenaeos. Fusce
             </p>
 
-            <a href="#">View Portfolio</a>
+            <a class="uppercase p-2 border-2 border-orange-400 text-xs rounded 
+            sm:text-md self-start sm:px-4" href="#">View Portfolio</a>
           </div>
         </div>
 
-        <figure>
+        <figure class="lg:max-w-[550px] lg:relative lg:before:content-[''] lg:before:absolute lg:before:border-[20px] lg:before:rounded lg:before:border-orange-400 lg:before:h-96 lg:before:w-96 lg:before:-top-12 lg:before:-left-12 lg:z-10 lg:before:-z-10">
           <img src="images/showcase.jpg" alt="" />
         </figure>
       </section>
@@ -81,28 +82,29 @@
 
     <main>
       <!-- *-*-*-*-*-*-*-*-*-*-*-*-* Motto -->
-      <section>
-        <div>
+      <section class="p-6 bg-gray-400  md:p-16 2xl:rounded">
+        <div class="p-2 flex flex-col gap-y-5 lg:w-3/4 lg:mx-auto lg:relative lg:after lg:after:content-[''] lg:after:h-2 lg:after:w-1/6 lg:after:-bottom-6 lg:after:left-2/4 lg:after:bg-orange-400 lg:after:-translate-x-2/4">
           <blockquote
             cite="https://www.azquotes.com/author/8044-Martin_Luther_King_Jr/tag/brother"
           >
-            <p>
+            <p class="before:content-['\201C'] after:content-['\201D'] text-xl text-white lg:text-2xl">
               We've learned to fly the air like birds, we've learned to swim the
               seas like fish, and yet we haven't learned to walk the earth as
               brothers and sisters.
             </p>
           </blockquote>
-          <p>— Martin Luther King, Jr., <cite>Love</cite></p>
+          <p class="text-center font-bold text-white">— Martin Luther King, Jr., <cite>Love</cite></p>
         </div>
       </section>
 
       <!-- *-*-*-*-*-*-*-*-*-*-*-*-* About me -->
-      <section>
-        <div>
-          <div>
+      <section class="p-6 flex flex-col gap-10 bg-gray-500 text-white relative md:p-16
+      lg:flex-row *:basis-full">
+        <div class="space-y-5 xl:self-center">
+          <div class="space-y-10 *:space-y-2 lg:relative lg:after lg:after:h-4 lg:after:w-3/4 lg:after:bottom-0 lg:after:content-[''] lg:after:absolute lg:after:bg-orange-400 lg:pb-12">
             <div>
-              <h6>About me</h6>
-              <h2>Professional Photographer</h2>
+              <h6 class="text-sm pl-6 uppercase relative before before:absolute before:h-1 before:w-4 before:bg-orange-400 before:top-2/4 before:-transelate-y-2/4 before:left-0 before: rounded lg:text-lg before:content-['']">About me</h6>
+              <h2 class="text-2xl capitalize font-bold lg:text-3xl">Professional Photographer</h2>
             </div>
 
             <div>
@@ -120,27 +122,27 @@
             </div>
           </div>
 
-          <div>
-            <h3>My Awards</h3>
+          <div >
+            <h3 class="text-lg text-orange-400 font-semibold lg:text-xl">My Awards</h3>
 
-            <ul>
-              <li>
-                <i class="fa-solid fa-angles-right"></i>
+            <ul class="">
+              <li class="space-x-3">
+                <i class="fa-solid fa-angles-right text-orange-400"></i>
                 <span>Award 1</span>
               </li>
-              <li>
-                <i class="fa-solid fa-angles-right"></i>
+              <li class="space-x-3">
+                <i class="fa-solid fa-angles-right text-orange-400"></i>
                 <span>Award 2</span>
               </li>
-              <li>
-                <i class="fa-solid fa-angles-right"></i>
+              <li class="space-x-3">
+                <i class="fa-solid fa-angles-right text-orange-400"></i>
                 <span>Award 3</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <figure>
+        <figure class="lg: max-w-[550px]">
           <img src="images/about.jpg" alt="" />
         </figure>
       </section>
@@ -343,7 +345,7 @@
           </p>
 
           <div>
-            <figure>
+            <figure >
               <img src="images/client.jpg" alt="" />
             </figure>
 
