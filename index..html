@@ -317,7 +317,7 @@
       </section>
 
       <!-- *-*-*-*-*-*-*-*-*-*-*-*-* Testimonials -->
-      <section class="p-6 flex flex-col gap-y-10 bg-gray-400 text-white lg:gap-x-10 lg:flex-row-reverse *:basis-full md:p-16 2xl:rounded">
+      <section class="p-6 flex flex-col gap-y-10 bg-gray-400 text-white lg:gap-x-10 lg:flex-row *:basis-full md:p-16 2xl:rounded">
         <div class="flex flex-col gap-5 *:space-y-2">
           <div>
             <h6 class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:bg-orange-400 before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg before:content-[''] before:absolute before:ml-1">testimonials</h6>
@@ -337,30 +337,30 @@
             <img src="images/testimonial-quote.png" alt="" />
           </figure>
 
-          <p>
+          <p class="p-8 text-gray-800 border-2 border-orange-400/90 rounded relative after:bg-orange-400/90 after:content-[''] after:h-full after:w-full after:absolute after:top-0 after:left-0 after:-z-[1] z-[1] after:scale-y-100 hover:after:scale-y-0 after:transition-transform hover:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi
             delectus reprehenderit magni rerum recusandae vero aliquam,
             repudiandae in perspiciatis omnis, repellendus neque sapiente ab
             beatae explicabo tempora. Amet, ex.
           </p>
 
-          <div>
-            <figure >
-              <img src="images/client.jpg" alt="" />
+          <div class="grid grid-rows-2 grid-cols-2 self-start mt-5">
+            <figure class="row-span-2 p-2 border-4 border-orange-400/90 rounded-full animate-bounce">
+              <img class="size-28 rounded-full object-top" src="images/client.jpg" alt="" />
             </figure>
 
-            <h6>Jane Doe</h6>
-            <p>CEO at XYZ</p>
+            <h6 class="self-end text-orange-400/90 ml-4">Jane Doe</h6>
+            <p class="ml-4 mt-1">CEO at XYZ</p>
           </div>
         </div>
       </section>
 
       <!-- *-*-*-*-*-*-*-*-*-*-*-*-* News -->
-      <section>
-        <div>
+      <section class="p-6 flex flex-col gap-y-10 bg-gray-500 text-white relative md:p-16 lg:gap-x-10 lg:flex-row-reverse *:basis-full">
+        <div class="flex flex-col gap-y-5 lg:self-center xl:gap-y-10 *:space-y-2">
           <div>
-            <h6>news</h6>
-            <h2>Across the world of Photography</h2>
+            <h6 class="text-sm pl-6 uppercase relative before before:absolute before:content-[''] before:h-1 before:w-4 before:bg-orange-400 before:top-2/4 before:-left-0 lg:text-lg">news</h6>
+            <h2 class="text-2xl capitalize font-bold before:-left-0 lg:text-lg">Across the world of Photography</h2>
           </div>
 
           <p>
@@ -373,23 +373,23 @@
           <a href="#">View News</a>
         </div>
 
-        <div>
-          <div>
+        <div class="grid gap-y-5 sm:grid-cols-2 sm:grid-rows-[min-content] sm:gap-x-5">
+          <div class="grid sm:grid-rows-subgrid sm:row-span-5 gap-y-4 p-6 rounded bg-gray-400 shadow-sm border-t-2 border-orange-400">
             <figure>
               <img src="images/news-1.jpg" alt="" />
             </figure>
-            <h3>Model Photoshoot</h3>
-            <h6>Dec 24, 2027</h6>
+            <h3 class="font-bold text-xl">Model Photoshoot</h3>
+            <h6 class="text-orange-400">Dec 24, 2027</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
               consectetur obcaecati ut nihil placeat.
             </p>
-            <a href="#"><span>Read More</span> <i></i></a>
+            <a class="uppercase  py-2 px-6 border-2 justify-self-start border-orange-400 self-start text-xs rounded sm:text-base sm:px-4 group lg:text-sm" href="#"><span>Read More</span> <i class="fa-solid fa-angles-right animate-pulse "></i></a>
           </div>
 
-          <div>
+          <div class="grid sm:grid-rows-subgrid sm:row-span-5 gap-y-4 p-6 rounded bg-gray-400 shadow-sm border-t-2 border-orange-400">
             <figure>
-              <img src="images/news-2.jpg" alt="" />
+              <img class="object-[65%]" src="images/news-2.jpg" alt="" />
             </figure>
             <h3>Company Profile</h3>
             <h6>Jan 24, 2028</h6>
@@ -397,7 +397,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
               consectetur obcaecati ut nihil placeat.
             </p>
-            <a href="#"><span>Read More</span> <i></i></a>
+            <a class="uppercase  py-2 px-6 border-2 justify-self-start border-orange-400 self-start text-xs rounded sm:text-base sm:px-4 group lg:text-sm" href="#"><span>Read More</span> <i class="fa-solid fa-angles-right animate-pulse "></i></a>
           </div>
         </div>
       </section>
