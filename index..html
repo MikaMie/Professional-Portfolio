@@ -403,10 +403,10 @@
       </section>
 
       <!-- *-*-*-*-*-*-*-*-*-*-*-*-* Contact -->
-      <section>
-        <div>
+      <section class="flex flex-row">
+        <div class="flex flex-col justify-center">
           <div>
-            <h6>let's talk</h6>
+            <h6 class="font-bold text-white pl-6 uppercase relative before before:absolute before:content-[''] before:h-1 before:w-4 before:top-2/4 before:-left-0 lg:text-lg before:bg-orange-400 before:rounded ">let's talk</h6>
             <h2>Keep In Touch</h2>
           </div>
 
@@ -419,31 +419,31 @@
           <a href="#">Let's Chat</a>
         </div>
 
-        <figure>
-          <img src="images/contact.jpg" alt="" />
+        <figure class="w-64 h-96">
+          <img class="h-2/4 w-auto"  src="images/contact.jpg" alt="" />
         </figure>
       </section>
     </main>
 
     <!-- *-*-*-*-*-*-*-*-*-*-*-*-* Contact Form -->
-    <footer>
-      <div>
+    <footer class="p-6 flex flex-col gap-y-10 bg-gray-500 text-white relative md:p-16 lg:gap-x-10 lg:flex-row-reverse *:basis-full">
+      <div class="flex flex-col gap-y-5 ">
         <figure>
           <img src="images/form.jpg" alt="" />
         </figure>
 
-        <form>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
-          <input type="submit" value="Submit" />
+        <form class="grid gap-y-2 *:px-2 *:rounded *:outline-none h-full">
+          <input class="bg-orange-400 text-white placeholder:text-white h-12 sm:h-16" type="text" placeholder="Name" />
+          <input class="bg-orange-400 text-white placeholder:text-white h-12 sm:h-16" type="email" placeholder="Email" />
+          <textarea class="bg-orange-400 text-white placeholder:text-white h-48 sm:h-16" placeholder="Message"></textarea>
+          <input class="border-2 border-orange-400 text-white placeholder:text-white h-12 sm:h-16 cursor-pointer" type="submit" value="Submit" />
         </form>
       </div>
 
-      <div>
+      <div class="flex flex-col gap-y-5 lg:self-center xl:gap-y-10 *:space-y-2">
         <div>
-          <h6>let's talk</h6>
-          <h2>Keep In Touch</h2>
+          <h6 class="text-sm pl-6 uppercase relative before before:absolute before:content-[''] before:h-1 before:w-4 before:top-2/4 before:-left-0 lg:text-lg before:bg-orange-400 before:rounded">let's talk</h6>
+          <h2 class="text-2xl capitalize font-bold lg:text-3xl">Keep In Touch</h2>
         </div>
 
         <p>
@@ -451,40 +451,40 @@
           corporis eveniet, doloribus impedit fuga eum accusamus Lorem
         </p>
 
-        <div>
-          <div>
-            <figure>
-              <img src="images/contact-icon-1.png" alt="" />
+        <div class="grid gap-5 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-1 xl:grid-cols-2 xl:">
+          <div class="grid grid-cols-[112px_1fr] grid-rows-2 gap-x-5 gap-y-2">
+            <figure class="row-start-1 row-end-3">
+              <img class="w-28 h-auto" src="images/contact-icon-1.png" alt="" />
             </figure>
 
-            <h6>Phone Number</h6>
-            <p>123-234-1234</p>
+            <h6 class="self-end text-orange-400">Phone Number</h6>
+            <p class="col-start-2">123-234-1234</p>
           </div>
 
-          <div>
-            <figure>
-              <img src="images/contact-icon-2.png" alt="" />
+          <div class="grid grid-cols-[112px_1fr] grid-rows-2 gap-x-5 gap-y-2">
+            <figure class="row-start-1 row-end-3">
+              <img class="w-28 h-auto" src="images/contact-icon-2.png" alt="" />
             </figure>
 
-            <h6>Email address</h6>
-            <p>cool@cool.com</p>
+            <h6 class="self-end text-orange-400">Email address</h6>
+            <p class="col-start-2">cool@cool.com</p>
           </div>
 
-          <div>
-            <figure>
-              <img src="images/contact-icon-3.png" alt="" />
+          <div class="grid grid-cols-[112px_1fr] grid-rows-2 gap-x-5 gap-y-2">
+            <figure class="row-start-1 row-end-3">
+              <img class="w-28 h-auto" src="images/contact-icon-3.png" alt="" />
             </figure>
 
-            <h6>Websites</h6>
-            <p>www.cool.com</p>
+            <h6 class="self-end text-orange-400">Websites</h6>
+            <p class="col-start-2">www.cool.com</p>
           </div>
 
-          <div>
-            <figure>
-              <img src="images/contact-icon-4.png" alt="" />
+          <div class="grid grid-cols-[112px_1fr] grid-rows-2 gap-x-5 gap-y-2">
+            <figure class="row-start-1 row-end-3">
+              <img  class="w-28 h-auto" src="images/contact-icon-4.png" alt="" />
             </figure>
-            <h6>Address</h6>
-            <p>177A Bleecker Street, NY</p>
+            <h6 class="self-end text-orange-400">Address</h6>
+            <p class="col-start-2">177A Bleecker Street, NY</p>
           </div>
         </div>
       </div>
