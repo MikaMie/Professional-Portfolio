@@ -37,15 +37,15 @@ Images scale smoothly using `object-cover` and `w-full`. The entire page is sect
 
 ### 💻 Desktop View
 
-![Desktop Preview](./assets/desktop.png)
+![Desktop Preview](./src/assets/desktop.png)
 
 ### 📱 Tablet View
 
-![Tablet Preview](./assets/tablet.png)
+![Tablet Preview](./src/assets/tablet.png)
 
 ### 📲 Mobile View
 
-![Mobile Preview](./assets/mobile.png)
+![Mobile Preview](./src/assets/mobile.png)
 
 ---
 
